@@ -62,7 +62,7 @@ public class FizzBuzzTest {
     }
 
     @Test
-    void should_return_fizz_buzz_when_play_fizz_buzz_given_3_5() {
+    void should_return_fizz_buzz_when_play_fizz_buzz_given_15() {
         //given
         int number = 15;
         FizzBuzz fizzBuzz = new FizzBuzz();
