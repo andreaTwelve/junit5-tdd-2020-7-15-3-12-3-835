@@ -2,6 +2,8 @@ package junit5.tdd;
 
 import org.junit.jupiter.api.Test;
 
+import java.io.File;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
@@ -91,5 +93,16 @@ public class FizzBuzzTest {
         String actual = fizzBuzz.playFizzBuzz(number);
         //then
         assertEquals("BuzzWhizz", actual);
+    }
+
+    @Test
+    void should_return_fizz_buzz_whizz_when_play_fizz_buzz_given_105() {
+        //given
+        int number = 105;
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        //when
+        String actual = fizzBuzz.playFizzBuzz(number);
+        //then
+        assertEquals("FizzBuzzWhizz", actual);
     }
 }
