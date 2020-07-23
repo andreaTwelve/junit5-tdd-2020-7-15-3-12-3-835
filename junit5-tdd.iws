@@ -102,8 +102,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/junit5/tdd/FizzBuzzTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="473">
-                  <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+                <state relative-caret-position="-17">
+                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -114,8 +114,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/junit5/tdd/FizzBuzz.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -137,8 +137,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/junit5/tdd/FizzBuzz.java" />
         <option value="$PROJECT_DIR$/src/test/java/junit5/tdd/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/junit5/tdd/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -325,6 +325,26 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="FizzBuzzTest.should_return_whizz_when_play_fizz_buzz_given_7" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;junit5.tdd.FizzBuzzTest.should_return_whizz_when_play_fizz_buzz_given_7&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="HelloWorldTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -371,6 +391,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.FizzBuzzTest" />
+        <item itemvalue="Gradle.FizzBuzzTest.should_return_whizz_when_play_fizz_buzz_given_7" />
         <item itemvalue="Gradle.FizzBuzzTest.should_return_buzz_when_play_fizz_buzz_given_5" />
         <item itemvalue="Gradle.FizzBuzzTest.should_return_fizz_when_play_fizz_buzz_given_3" />
         <item itemvalue="Gradle.HelloWorldTest" />
@@ -391,12 +412,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloWorldTest - 2020.07.23 at 11h 29m 16s.xml">
-      <configuration name="HelloWorldTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="HelloWorldTest - 2020.07.23 at 11h 29m 32s.xml">
-      <configuration name="HelloWorldTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="FizzBuzzTest - 2020.07.23 at 11h 37m 39s.xml">
       <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -418,10 +433,18 @@
     <history-entry file="FizzBuzzTest - 2020.07.23 at 11h 57m 47s.xml">
       <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_whizz_when_play_fizz_buzz_given_7 - 2020.07.23 at 12h 01m 47s.xml">
+      <configuration name="FizzBuzzTest.should_return_whizz_when_play_fizz_buzz_given_7" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_should_return_whizz_when_play_fizz_buzz_given_7 - 2020.07.23 at 12h 03m 22s.xml">
+      <configuration name="FizzBuzzTest.should_return_whizz_when_play_fizz_buzz_given_7" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.07.23 at 12h 03m 26s.xml">
+      <configuration name="FizzBuzzTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -476,15 +499,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/junit5/tdd/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/junit5/tdd/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="-17">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
