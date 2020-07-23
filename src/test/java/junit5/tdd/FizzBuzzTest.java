@@ -13,11 +13,11 @@ public class FizzBuzzTest {
         //given
         int number = 1;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
-
         String actual = fizzBuzz.playFizzBuzz(number);
-        //then
 
+        //then
         assertEquals("1", actual);
     }
 
@@ -26,11 +26,11 @@ public class FizzBuzzTest {
         //given
         int number = 3;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
-
         String actual = fizzBuzz.playFizzBuzz(number);
-        //then
 
+        //then
         assertEquals("Fizz", actual);
     }
 
@@ -41,10 +41,9 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         //when
-
         String actual = fizzBuzz.playFizzBuzz(number);
-        //then
 
+        //then
         assertEquals("Buzz", actual);
     }
 
@@ -53,11 +52,11 @@ public class FizzBuzzTest {
         //given
         int number = 7;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
-
         String actual = fizzBuzz.playFizzBuzz(number);
-        //then
 
+        //then
         assertEquals("Whizz", actual);
     }
 
@@ -69,6 +68,7 @@ public class FizzBuzzTest {
 
         //when
         String actual = fizzBuzz.playFizzBuzz(number);
+
         //then
         assertEquals("FizzBuzz", actual);
     }
@@ -78,8 +78,10 @@ public class FizzBuzzTest {
         //given
         int number = 21;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
         String actual = fizzBuzz.playFizzBuzz(number);
+
         //then
         assertEquals("FizzWhizz", actual);
     }
@@ -89,8 +91,10 @@ public class FizzBuzzTest {
         //given
         int number = 35;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
         String actual = fizzBuzz.playFizzBuzz(number);
+
         //then
         assertEquals("BuzzWhizz", actual);
     }
@@ -100,8 +104,10 @@ public class FizzBuzzTest {
         //given
         int number = 105;
         FizzBuzz fizzBuzz = new FizzBuzz();
+
         //when
         String actual = fizzBuzz.playFizzBuzz(number);
+
         //then
         assertEquals("FizzBuzzWhizz", actual);
     }
